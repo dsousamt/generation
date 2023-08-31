@@ -11,11 +11,12 @@ public class aula09E1 {
 		
 		int a, b, c, soma;
 		
-		System.out.println("Digite 3 numeros: ");
+		System.out.println("Digite o primeiro número: ");
 		a = scanner.nextInt();
+		System.out.println("Digite o segundo número: ");
 		b = scanner.nextInt();
+		System.out.println("Digite o terceiro número: ");
 		c = scanner.nextInt();
-		
 		soma = a + b;
 		
 		if (soma > c) {
@@ -25,7 +26,6 @@ public class aula09E1 {
 		} else {
 			System.out.println("A Soma de A + B é Igual a C");
 		}		
-		
 		
 		scanner.close();
 	}
