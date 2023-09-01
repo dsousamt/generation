@@ -3,7 +3,7 @@ package aula10;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula10E4 {
+public class Aula10E5v2 {
 	public static void main(String[] args) {
 		Scanner  scanner = new Scanner(System.in);
 		
@@ -15,14 +15,16 @@ public class Aula10E4 {
 		while (true) {
 			
 			System.out.println("Digite a idade: ");
-			int idade = scanner.nextInt();			
+			int idade = scanner.nextInt();
+			
 			
 			System.out.println("\nQual é seu sexo? ");
 			System.out.println("1 – Masculino");
 			System.out.println("2 – Feminino ");
 			System.out.println("3 – Outros");			
 			int masc = 1, fem = 2;			
-			int sexo = scanner.nextInt();			
+			int sexo = scanner.nextInt();	
+			
 			
 			System.out.println("\nQual é sua categoria? ");
 			System.out.println("1 – Backend");
@@ -32,7 +34,7 @@ public class Aula10E4 {
 			int back = 1, front = 2, mobile = 3, full = 4;			
 			int categoria = scanner.nextInt();
 			
-			//consulta
+			//query
 			if (categoria == back) {
 				countBackEnd++;
 			} else if (categoria == front && sexo == fem) {				
