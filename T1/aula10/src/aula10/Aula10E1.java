@@ -1,6 +1,5 @@
 package aula10;
 
-import java.util.Iterator;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -26,7 +25,7 @@ public class Aula10E1 {
 			}
 			
 		} else {
-			System.out.println("Número inválido");
+			System.out.println("Intervalo inválido");
 		}
 		
 		
