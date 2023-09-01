@@ -22,6 +22,7 @@ public class Aula10E3 {
 			} else {
 				break;
 			}
+			
 		}
 		
 		System.out.println("\nTotal de pessoas menores de 21 anos: " + count21);
