@@ -1,6 +1,5 @@
 package aula11;
 
-import java.util.Iterator;
 import java.util.Locale;
 import java.util.Scanner;
 
