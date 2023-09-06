@@ -1,6 +1,5 @@
 package aula10;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Aula10E5v2 {

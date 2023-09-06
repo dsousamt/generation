@@ -15,7 +15,7 @@ public class E3 {
 			mySet.add(sc.nextInt());			
 		}
 		
-		for (Iterator i = mySet.iterator(); i.hasNext();) {
+		for (Iterator<Integer> i = mySet.iterator(); i.hasNext();) {
 			Integer integer = (Integer) i.next();
 			System.out.println(integer);			
 		}
