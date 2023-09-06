@@ -1,11 +1,10 @@
-package aula08;
+package aula12;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class A12E1 {
-
+public class E1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -56,5 +55,4 @@ public class A12E1 {
 
 		sc.close();
 	}
-
 }
