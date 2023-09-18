@@ -46,11 +46,7 @@ public class Programa {
 			
 		}
 		
-		listaClientes.stream()
-			.forEach(c -> {
-				System.out.println();
-				c.visualizarCliente();
-		});
+		listaClientes.stream().forEach(c -> c.visualizarCliente());
 		
 		sc.close();
 	}
