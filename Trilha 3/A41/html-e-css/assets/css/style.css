@@ -1,7 +1,14 @@
+/*
+
+CONFIGURAÇÕES GERAIS
+
+*/
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-/* Defina estilos para o corpo (e o HTML) para ocupar toda a altura da viewport */
+
+/* DefinE estilos para o corpo (e o HTML) para ocupar toda a altura da viewport */
 html, body {
   height: 100%;
   margin: 0;
@@ -29,19 +36,29 @@ main{
   height: 100%;
 }
 
+/*
 
+ESTRUTURA DA PÁGINA
 
+*/
 
-
-
-.container{
-  max-width: 1200px;
-  padding-left: 32px;
-  padding-right: 32px;
+.section {
+  padding: 32px 0px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
 
+.container{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+}
 .row {
   display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 32px;
 }
 
 .col20 {
@@ -72,10 +89,11 @@ main{
   width: 100%;
 }
 
+/*
 
+HEADER
 
-
-
+*/
 
 
 .logo{
@@ -107,7 +125,8 @@ main{
   font-size: 18px;
   font-weight: 400;
   color: rgb(177, 78, 93);
-  text-decoration: none;
+  text-decoration: none;  
+  transition: 300ms;
 }
 
 .menu li a:hover{
@@ -116,24 +135,17 @@ main{
 }
 
 
+/*
 
+HERO SECTION
 
-
-
-
-
-
-
-
-
-
+*/
 
 .hero-section {
   padding: 32px 0px;
   display: flex;
   align-items: center;
 }
-
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -150,6 +162,11 @@ main{
   font-weight: 200;
 }
 
+.hero-text h3 {
+  font-size: 24px;
+  font-weight: 200;
+}
+
 .hero-text p {
   line-height: 1.6;
   text-align: justify;
@@ -161,16 +178,11 @@ main{
   border-radius: 48px;
 }
 
+/*
 
+BUTTONS
 
-
-
-
-
-
-
-
-
+*/
 
 .btn-primary {
   padding: 24px 40px;
@@ -178,6 +190,7 @@ main{
   width: fit-content;
   cursor: pointer;
   border-radius: 16px;
+  transition: 300ms;
 }
 
 .btn-primary a {
