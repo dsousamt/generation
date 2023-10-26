@@ -1,0 +1,193 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Defina estilos para o corpo (e o HTML) para ocupar toda a altura da viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header, main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header{
+  background-color: lightpink;
+}
+
+main{
+  background-color: rgb(255, 238, 238);
+  height: 100%;
+}
+
+
+
+
+
+
+.container{
+  max-width: 1200px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.row {
+  display: flex;
+}
+
+.col20 {
+  width: 20%;
+}
+.col30 {
+  width: 30%;
+}
+.col40 {
+  width: 40%;
+}
+.col50 {
+  width: 50%;
+}
+.col60 {
+  width: 60%;
+}
+.col70 {
+  width: 70%;
+}
+.col80 {
+  width: 80%;
+}
+.col90 {
+  width: 80%;
+}
+.col100 {
+  width: 100%;
+}
+
+
+
+
+
+
+
+.logo{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.logo span{
+  font-weight: 100;
+  font-size: 24px;
+  color: light;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 32px;
+  
+}
+.menu{
+  display: flex;
+}
+
+.menu li {
+  margin-left: 24px;
+}
+
+.menu li a{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(177, 78, 93);
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  color:black;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section {
+  padding: 32px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 88px;
+}
+
+.hero-text > * {
+  margin-bottom: 24px;
+}
+
+.hero-text h1 {
+  font-size: 80px;
+  font-weight: 200;
+}
+
+.hero-text p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+
+.hero-image img {
+  width: 100%;
+  border-radius: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-primary {
+  padding: 24px 40px;
+  background-color: lightpink;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.btn-primary a {
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.btn-primary:hover {
+    background-color: white;
+}
+
+
