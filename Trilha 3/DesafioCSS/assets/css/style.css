@@ -1,0 +1,220 @@
+/*
+
+GERAL
+
+*/
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  color: #f5f5df;
+  background: #2e2518;
+}
+
+nav, main, footer {
+  display: flex;
+  width: 100%;  
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main, footer {
+  flex-flow: column wrap;
+}
+
+main > *, nav, footer{
+  padding: 56px 100px;
+}
+
+main {
+  background: #362b1e;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 100px;
+  text-align: center;
+}
+
+label {
+  margin-bottom: 16px;
+}
+
+input, textarea {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 2px solid #403424	;
+  background: #2e2518;
+  color: #f5f5df;
+}
+
+button {
+  cursor: pointer;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: large;
+  background: #ef8554;
+  color:#362b1e;
+  transition: 300ms;
+}
+button:hover {
+  background-color: #a4ccac;
+}
+
+hr {
+  border: 1px solid #403424;
+  width: 100%;
+}
+/*
+
+HEADER
+
+*/
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+
+  background: #a4ccac;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.logo > .titulo {
+  font-size: xx-large;
+  font-weight: 600;
+  color: #362b1e;
+  width: 150px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 16px;
+}
+
+nav ul li a{
+  color: #657d6a;
+  text-decoration: none;
+  font-size: larger;
+  transition: 500ms;
+}
+
+nav ul li a:hover{
+  color: #362b1e;
+  font-weight: 700
+}
+
+/*
+
+SOBRE
+
+*/
+
+#sobre {
+  display: flex;
+  align-items: center;
+  background: #403424;
+}
+
+.texto_sobre {
+  margin-right: 56px;
+  max-width: 50%;
+}
+
+#video {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#video h3 {
+  margin: 32px 0px;
+}
+
+.foto {
+  border-radius: 40px;
+  width: 100%;
+}
+
+/*
+
+CONTATO
+
+*/
+
+form, .endereco {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+form > *, .endereco > * {
+  margin-bottom: 32px;
+}
+
+#contato{
+  display: flex;
+  flex-direction: row;
+}
+
+#formulario_mensagem {
+  width: 50%;
+}
+
+#formulario_buscacep {
+  width: 50%;
+}
+
+#formulario_mensagem > h3, #formulario_buscacep > h3 {
+  margin: 40px 0px;
+  font-size:x-large;
+  text-align: center;
+  font-weight: 700;
+}
+
+#formulario_mensagem {
+  padding-right: 16px;
+}
+
+#formulario_buscacep {
+  padding-left: 16px;
+}
+
+.campos-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+  align-items: center;
+  background: #403424	;
+}
+
+.redes_sociais{
+  margin-bottom: 24px;
+}
+
+.redes_sociais > *{
+  margin: 0px 8px;
+}
+
+.redes_sociais img{
+  max-width: 24px;
+}
